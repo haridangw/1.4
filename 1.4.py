@@ -99,20 +99,20 @@ chontool = f"""
 \033[1;32m║\033[1;37m██║░░██║██║░░██║██║░░██║██║  ██████╔╝░░╚██╔╝░╚██╔╝░\033[1;32m║ 
 \033[1;32m║\033[1;37m╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝  ╚═════╝░░░░╚═╝░░░╚═╝░░\033[1;32m║  
 \033[1;32m╠═══════════════════════════════════════════════════╣
-\033[1;32m║\033[1;34m▶ tele : \033[1;37mDw_111                                    \033[1;32m║
-\033[1;32m╠\033[1;34m▶ zalo : \033[1;37m0327921302                                \033[1;32m║
+\033[1;32m║\033[1;34m▶ tele : \033[1;37mharidawng                           \033[1;32m║
+\033[1;32m╠\033[1;34m▶ ig : \033[1;37muuoaooa                               \033[1;32m║
 \033[1;32m╚═══════════════════════════════════════════════════╝
-\033[1;32m-------------------------------------------------"""
+\033[1;32m-------\033[1;37mcâu chửi ở dưới là mình nhặt.chứ không rảnh viết từng dòng----"""
 clear()
 runbanner(chontool)
-print('\033[1;34mBạn Cảm Thấy Tool Như Thế Nào ?')
+print('\033[1;34mBanj cảm thấy tool như nào ')
 print('\033[1;34mChọn 1 : Hài Lòng')
-print('\033[1;34mChọn 2 : Không Hài Lòng')
+print('\033[1;34mĐôi lúc cuộc sống sẽ không có sự lựa chọn...')
 chon = int(input(f"{xanhnhat}Chọn : {vang}"))
 if chon == 1:
     clear()
     runbanner(chontool)
-    idcanspam=input(f'{xanhnhat}ID Box Để Nhây Code Lag :{vang} ')
+    idcanspam=input(f'{xanhnhat}ID Box Để Nhây Câu chửi :{vang} ')
     while True:
       ck=input(f'{xanhnhat}Nhập Cookie Facebook :{vang} ')
       try:
@@ -142,7 +142,7 @@ if chon == 1:
       "accept-language":"vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
       "cookie":ck,
     }
-    print('\033[1;34mNhây Có Cần Thêm Code Lag Không?')
+    print('\033[1;34mNhây Có Cần Thêm Câu Chửi Lag Không')
     print('\033[1;34mChọn 1 : Cần')
     print('\033[1;34mChọn 2 : Không Cần')
     chon_name = str(input(f"{xanhnhat}Chọn : {vang}"))
@@ -329,7 +329,7 @@ f"may chay a con di lon {lag}",
                 print(f"{NOIDUNG}")
                 idelay(delay)
         except Exception as e:
-          print(f"{do}Lỗi bị ngắt kết lối vui lòng kết lối lại mạng để tiếp tục nhây")
+          print(f"{do}Ae rút ( lỗi mạng )")
           time.sleep(5)
 else:
     print(f"{do}Vui lòng chọn đúng")   
